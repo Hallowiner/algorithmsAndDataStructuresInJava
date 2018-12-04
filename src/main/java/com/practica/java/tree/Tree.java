@@ -1,7 +1,5 @@
 package com.practica.java.tree;
 
-import java.util.HashMap;
-
 public class Tree {
 
     private Nodo root;
@@ -16,7 +14,6 @@ public class Tree {
             }
         }
         return current;
-
     }
 
     public void insert(int value) {
